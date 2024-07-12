@@ -362,6 +362,6 @@
 
 .fillSpace:hover {
     cursor: pointer;
-    background-image: url(/pages/resume/assets/gif/crying-cat-sad-cat.gif);
+    background-image: url(../gif/crying-cat-sad-cat.gif);
     background-repeat: no-repeat;
 }
