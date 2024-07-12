@@ -1,8 +1,8 @@
-* {     /*THIS IS FOR HOME*/
+* {     /*About*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 .container {
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg);
+    background-image: url(../../../../assets/img/pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg);
 }
 
 .innerContainer{
@@ -130,61 +130,96 @@
 
 .middleContainer {
     display: flex;
+    height: 80vh;
     width: 65%;
-    height: 100%;
-    background: #F2F2F2;
+    /* background: gray; */
     border-radius: 40px;
+    flex-direction: column;
+
 }
 
-.textArea {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 56%;
-    transform: translate(-50%, -56%);
-    padding-left: 20px;
-    width: 35%;
+.topMiddleContainer {
+    display: flex;
+  /*background-color: blue;  */
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    height: 30%;
+    border-radius: 40px;
+    flex-direction: column;
+}
+.about {
+    font-size: 35px;
+    padding-top: 30px;
+    font-style: bold;
 }
 
-.textArea span {
-    color: #333333;
-    display: block;
-}
-.welcome {
-    color: white;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    margin-bottom: 20px;
-    position: relative;
-    background: #F2F2F2;
-    animation: text 1s 1;
+.aboutMeText {
+    font-size: 20px;
+    font-weight: 400;
 }
 
-.shortIntro {
+.bottomMiddleContainer {
+    display: flex;
+    /*background-color: green; */
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    height: 70%;
+    border-radius: 40px;
+    flex-direction: column;
+}
+.bottomMiddleInnerContainer {
+    display: flex;
+    /* color: orange; */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.hobbiesInterests {
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-style: bold;
+}
+.leftBottomMiddleContainer {
+    display: flex;
+    /* background: gray; */
+    flex-direction: column;
+    width: 50%;
+}
+.rightBottomMiddleContainer {
+    display: flex;
+    /* background: pink; */
+    flex-direction: column;
+    width: 50%;
+}
+.categories {
     font-size: 25px;
-    color: rgb(118, 171, 190);
+    color: #333333;
+}
+.description {
+    font-size: 15px;
+    font-weight: 300;
+    color: #333333;
+    padding-right: 20px;
 }
 
-@keyframes text {
-    0%{
-        color: #333333;
-        margin-bottom: -145px;
-    }
-
-    30% {
-        letter-spacing: 8px;
-        margin-bottom: -145px;
-    }
-
-    85% {
-        letter-spacing: 8px;
-        margin-bottom: -145px;
-    }
+.editing{
+    padding-top: 21.5px;
+    font-size: 25px;
+    color: #333333;
+}
+.editingDescr{
+    font-size: 15px;
+    font-weight: 300;
+    color: #333333;
+    padding-right: 20px;
 }
 
+/* THIS IS RIGHT CONTAINER/NAVBAR NO NEED TO ADJUST */
 
-/* NAVBAR */
+
 .rightContainer {
     display: flex;
     height: 80vh;
@@ -232,7 +267,7 @@
     color: rgba(255, 255, 255, 0.74);
 }
 
-.fa-house {         /* ICONS NEED TO HAVE KEBAB CASES TO WORK */
+.fa-house {         /*ICONS NEEDS TO HAVE KEBAB CASES TO WORK*/
    margin-top: 20px;
    font-size: 25px;
    padding-left: 4px;

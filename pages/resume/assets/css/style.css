@@ -1,8 +1,8 @@
-* {     /*THIS IS FOR HOME*/
+* {     /*RESUME*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 .container {
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg);
+    background-image: url(../../../../assets/img/pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg);
 }
 
 .innerContainer{
@@ -128,63 +128,6 @@
     cursor: pointer;
 }
 
-.middleContainer {
-    display: flex;
-    width: 65%;
-    height: 100%;
-    background: #F2F2F2;
-    border-radius: 40px;
-}
-
-.textArea {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 56%;
-    transform: translate(-50%, -56%);
-    padding-left: 20px;
-    width: 35%;
-}
-
-.textArea span {
-    color: #333333;
-    display: block;
-}
-.welcome {
-    color: white;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    margin-bottom: 20px;
-    position: relative;
-    background: #F2F2F2;
-    animation: text 1s 1;
-}
-
-.shortIntro {
-    font-size: 25px;
-    color: rgb(118, 171, 190);
-}
-
-@keyframes text {
-    0%{
-        color: #333333;
-        margin-bottom: -145px;
-    }
-
-    30% {
-        letter-spacing: 8px;
-        margin-bottom: -145px;
-    }
-
-    85% {
-        letter-spacing: 8px;
-        margin-bottom: -145px;
-    }
-}
-
-
-/* NAVBAR */
 .rightContainer {
     display: flex;
     height: 80vh;
@@ -208,7 +151,7 @@
 
 .navBar a.active {
     color: white;
-    }
+}
 
 .navBar a:hover:not(.active) {
     color: rgba(118, 171, 190, 0.562);
@@ -232,7 +175,7 @@
     color: rgba(255, 255, 255, 0.74);
 }
 
-.fa-house {         /* ICONS NEED TO HAVE KEBAB CASES TO WORK */
+.fa-house {             /* ICONS NEED TO HAVE KEBAB CASES TO WORK */
    margin-top: 20px;
    font-size: 25px;
    padding-left: 4px;
@@ -244,7 +187,6 @@
     padding-left: 3px;
  }
 
-
 .fa-user {
     font-size: 25px;
     padding-left: 7px;
@@ -254,7 +196,6 @@
     font-size: 25px;
     padding-left: 6px;
  }
-
 
 .bottomRightContainer {
     display: flex;
@@ -279,4 +220,148 @@
 .backForward a:hover {
     cursor: pointer;
     color: rgba(118, 171, 190, 0.603);
+}
+
+.rightInnerContainer {
+    display: flex;
+    width: 65%;
+    /*background: red;*/
+    border-radius: 40px;
+    flex-direction: column;
+}
+
+.upperText{
+    /*background: blue;*/
+    color: #333333;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume {
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.skillContainer {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 40px;
+}
+
+.skills{
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 40px;
+    color: white;
+}
+.tagalog {
+    width: 100%;
+    background: rgb(44,62,80);
+    background: linear-gradient(90deg, rgba(44,62,80,1) 0%, rgba(44,62,80,1) 100%);
+}
+.english {
+    width: 90%;
+    background: rgb(44,62,80);
+    background: linear-gradient(90deg, rgba(44,62,80,1) 0%, rgba(44,62,80,0.8995973389355743) 100%);
+}
+
+.graphicDes,
+.cpp,
+.htmlcss {
+    width: 50%;
+    background: rgb(44,62,80);
+    background: linear-gradient(90deg, rgba(44,62,80,1) 0%, rgba(44,62,80,0.5018382352941176) 100%);
+}
+
+.logoDes,
+.webDes {
+    width: 40%;
+    background: rgb(44,62,80);
+    background: linear-gradient(90deg, rgba(44,62,80,1) 0%, rgba(44,62,80,0.39539565826330536) 100%);
+}
+
+.education,
+.experience,
+.language,
+.designSkills,
+.codingSkills {
+    font-size: 25px;
+    color: #333333;
+}
+.education {
+    padding-left: 50px;
+}
+.experience {
+    padding-left: 186px;
+}
+.language {
+    padding-top: 10px;
+}
+
+.middleTextContainer {
+    width: 100%;
+    height: 5%;
+    /*background: pink;*/
+    display: flex;  
+}
+
+.lowerTextContainer {
+    display: flex;
+    height:81%;
+}
+
+.leftTextContainer {
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: flex;
+    /*background: aliceblue;*/
+    width: 49.5%;
+    height: 100%;
+    flex-direction: column;
+    color: #333333;
+}
+.bachelor,
+.shs,
+.lang,
+.designThings {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
+.univ,
+.school{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.univSY{
+    padding-bottom: 0px;
+}
+
+.rightTextContainer {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*background: greenyellow;*/
+    width: 49.5%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.fillSpace {
+    height: 37.2%;
+    text-align: center;
+}
+.fillSpace p {
+    font-size: 10px;
+}
+
+.fillSpace:hover {
+    cursor: pointer;
+    background-image: url(/pages/resume/assets/gif/crying-cat-sad-cat.gif);
+    background-repeat: no-repeat;
 }
