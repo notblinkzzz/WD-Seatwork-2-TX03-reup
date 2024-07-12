@@ -1,0 +1,23 @@
+
+
+.primary-nav {
+    display: flex;
+    color: black;
+    position: absolute;
+    width: fit-content;
+    padding: 1rem;
+    background: #2C3E50;
+    border-radius: 10px;
+    left: 1rem;
+    top: 1rem;
+
+    & a {
+        display: flex;
+        width: fit-content;
+        gap: 1rem;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+}
