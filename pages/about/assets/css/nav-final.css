@@ -1,6 +1,4 @@
-
-
-.primary-nav {
+& .nav-orig {
     display: flex;
     color: black;
     position: absolute;
@@ -10,14 +8,15 @@
     border-radius: 10px;
     left: 1rem;
     top: 1rem;
+    z-index: 999;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
 
-    & a {
-        display: flex;
-        width: fit-content;
-        gap: 1rem;
-        align-items: center;
-        color: white;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
+& .nav-orig:hover {
+    background: #566b81;
+    color: rgba(255, 255, 255, 0.712);
 }
